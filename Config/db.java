@@ -14,8 +14,8 @@ public class db {
     public void makeConnection(){
 
         String username = "root";
-        String password="yokesh";
-        String url ="jdbc:mysql://localhost:3306/quizzapp";
+        String password="your_database_password";
+        String url ="jdbc:mysql://localhost:3306/your_database_name";
 
         try{
 
